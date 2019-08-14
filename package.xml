@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package>
+    <name>Webcreta_OutofStockSubscription</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>When a product is out of stock, the customer be able to request notification of availability &#xD;
+entering an email address on the product detail page. The subscribers will be notified by email&#xD;
+when the product will be back in stock.</summary>
+    <description>When a product is out of stock, the customer be able to request notification of availability by &#xD;
+entering an email address on the product detail page. The &#xD;
+subscribers will be notified by email &#xD;
+when the product will be back in stock.&#xD;
+For example, one of your products goes out of stock, in the product info page customer can see &#xD;
+one new form that will allow to subscribe for newsletter. When the product quantity&#xD;
+will be &#xD;
+changed, the customer will receive an email that will inform him that product is ready for &#xD;
+ordering.&#xD;
+Also admin can see the list of subscribers at Magento backend, and could delete any subscriber &#xD;
+from the list. Product wise filtering allows to see&#xD;
+which product is most subscribed by your &#xD;
+customers. You can change the product stock notification email template from backend. And &#xD;
+also allow to enable/disable the product out of stock subscription form at frontend product &#xD;
+page</description>
+    <notes>Minor bug fixed</notes>
+    <authors><author><name>WebCreta</name><user>WebCreta</user><email>webcreta@gmail.com</email></author></authors>
+    <date>2016-11-16</date>
+    <time>05:45:12</time>
+    <contents><target name="magelocal"><dir name="Webcreta"><dir name="OutofStockSubscription"><dir name="Block"><dir name="Adminhtml"><dir name="Subcriber"><file name="Grid.php" hash="ab9a38c48d1bc3b6e6d72cc80a74156b"/></dir><file name="Subcriber.php" hash="a00f1b454b9438993d59f2bea3d0931f"/></dir></dir><dir name="Helper"><file name="Data.php" hash="b3fa8070a43a247555852acc9c55c358"/></dir><dir name="Model"><file name="Info.php" hash="79ff79329804db8fcf3f49f49fa99c14"/><dir name="Mysql4"><file name="Info.php" hash="d2bd997f7877dbd6f392dc08aa17923c"/><dir name="Subscriber"><file name="Collection.php" hash="42bae24d76a143264bf8e90bba6502d0"/></dir><file name="Subscriber.php" hash="f936f70379f307a37f61f680f68b0a42"/></dir><file name="Observer.php" hash="1e93e5185a6c61c5e00fda583401acd1"/><file name="Subscriber.php" hash="6276c4c4d2fb2415ab2dd89425fc45ca"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="SubscriberController.php" hash="44564d558f5c58edcc5b8bd59720a5e6"/></dir><file name="IndexController.php" hash="de0345eb94d2a730beaae36a838e9338"/></dir><dir name="etc"><file name="config.xml" hash="7b6df7a36c4bb1c9bfe8684a59e9b9f3"/><file name="system.xml" hash="d5be0ebee7493694e31971a602f1cdd9"/></dir><dir name="sql"><dir name="outofstocksubscription_setup"><file name="mysql4-install-0.1.0.php" hash="ae6ee71a5d32a317c3e02ed66fb5e56c"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="outofstocksubscription.xml" hash="e2c047ad07a8a4ed7fbd853c014de265"/></dir><dir name="template"><dir name="outofstocksubscription"><dir name="catalog"><dir name="product"><file name="view.phtml" hash="cfc92b8355830a534d64f049fa3ae3b3"/></dir></dir></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="outofstocksubscription"><dir name="widget"><file name="grid.phtml" hash="ce924354c4c94be46de6789435e531b1"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Webcreta_OutofStockSubscription.xml" hash="957fffd2d58a543cc0460c4e6ecd33f7"/></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><file name="outofstock_subscription.html" hash="d179b8ac5ba5ce7786916d1b53149f8a"/></dir></dir></dir></target><target name="mage"><dir name="doc"><file name="OutofStockSubscription.pdf" hash="b62b3bab6984c7a7eeeea38c926e632f"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

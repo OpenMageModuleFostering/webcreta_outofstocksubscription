@@ -1,0 +1,18 @@
+{
+    "name": "OpenMageModuleFostering/Webcreta_OutofStockSubscription",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "When a product is out of stock, the customer be able to request notification of availability 
+entering an email address on the product detail page. The subscribers will be notified by email
+when the product will be back in stock.",
+    "authors": [
+    {
+        "name": "WebCreta",
+        "email": "webcreta@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
